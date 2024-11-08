@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DiscordShopApi.iml" filepath="$PROJECT_DIR$/.idea/DiscordShopApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/frontend.iml" filepath="$PROJECT_DIR$/frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sandbox.iml" filepath="$PROJECT_DIR$/sandbox.iml" />
     </modules>
   </component>
 </project>
