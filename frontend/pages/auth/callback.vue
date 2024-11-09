@@ -28,9 +28,14 @@ function handleDiscordRedirect() {
 </script>
 
 <template>
-
+  <div>
+    <p>Please wait, you are going to be redirected...</p>
+  </div>
 </template>
 
 <style scoped>
-
+  p{
+    padding: 0;
+    margin: 0;
+  }
 </style>

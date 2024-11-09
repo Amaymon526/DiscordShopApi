@@ -1,28 +1,34 @@
 <template>
   <div>
     <NuxtLayout>
-      <NuxtPage/>
+      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
-
 
 <script setup lang="ts">
 
 </script>
 
 <style>
-.slide-left-enter-active,
-.slide-left-leave-active{
-  transition: all 0.2s;
+
+/* Transition für das Ein- und Ausblenden */
+.page-enter-active, .page-leave-active {
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  transform-style: preserve-3d;
 }
-.slide-left-enter-from {
+
+/* Start- und Endzustände der Animation */
+.page-enter, .page-leave-to {
   opacity: 0;
-  transform: translate(50px, 0);
+  transform: rotateY(90deg); /* Start mit 90 Grad Rotation, Seite ist umgeklappt */
 }
-.slide-left-leave-to {
-  opacity: 0;
-  transform: translate(-50px, 0);
+
+/* Zielzustand für die Seite nach dem Einblenden */
+.page-enter-to {
+  opacity: 1;
+  transform: rotateY(0); /* Rückkehr zur normalen Ansicht */
 }
+
 
 </style>

@@ -1,0 +1,10 @@
+body {
+    font-family: Lato-Light, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+
+    overflow-x: hidden;
+    height: 100%;
+    color: white;
+    background: var(--background-primary);
+}

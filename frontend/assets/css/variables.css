@@ -1,0 +1,20 @@
+:root {
+    --text-primary: #007bff;
+    --text-second: #1E678F;
+    --text-third: #a5c2d2;
+
+    /* Background Colors */
+    --background-primary: #1a1a1a;
+    --background-second: #1c1c1e;
+    --background-third: #2e2e2e;
+
+    /*
+
+    Klassisches Dunkelgrau: #1a1a1a
+Sanftes Anthrazit: #2e2e2e
+Mitternachtsblau: #1b263b
+Gedämpftes Dunkelgrün: #0f3d3e
+Dunkles Kohlegrau: #1c1c1e
+
+    */
+}
